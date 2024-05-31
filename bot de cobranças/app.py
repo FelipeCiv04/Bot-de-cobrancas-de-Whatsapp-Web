@@ -67,7 +67,7 @@ with open(arquivo_erros, 'a', newline='', encoding='utf-8') as arquivo:
                     pyautogui.click(seta_escuro[0], seta_escuro[1])
                 except:
                     print('Não foi possível encontrar nenhuma das setas')
-                    raise Exception('DEU ERRO NESSA PORRA')
+                    raise Exception('ERRO')
             time.sleep(5)
             pyautogui.hotkey('ctrl', 'w')
             time.sleep(5)
