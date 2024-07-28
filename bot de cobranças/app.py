@@ -7,7 +7,7 @@ import os
 import csv
 
 # Carregar a planilha
-workbook = openpyxl.load_workbook("cobranças.xlsx")
+workbook = openpyxl.load_workbook("contatos.xlsx")
 pagina_clientes = workbook['Planilha1']
 
 # Caminho do arquivo de erros
